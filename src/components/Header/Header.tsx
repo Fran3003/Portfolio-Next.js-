@@ -10,7 +10,7 @@ export function Header() {
             <motion.div variants={fadeIn('up', 0.5)} initial="hidden" animate="show" exit="hidden">
                 <div className="container justify-between mx-auto md:flex">
                     <Link href="/">
-                        <h1 className="my-3 text-4xl text-center text-white md:text-lef">Franco Emanuel
+                        <h1 className="my-3 text-4xl text-center text-primary md:text-lef">Franco Emanuel
                             <span className="text-secondary"> Rantucho</span>
                         </h1>
                     </Link>

@@ -1,5 +1,5 @@
-import { Header } from '@/components/Header'
-import Navbar from '@/components/NavBar/Navbar'
+import { Cover } from '@/components/Cover'
+import { Transition } from '@/components/Transition/Transition'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="bg-[#363062] h-[100vh]">
-      <Navbar />
-      <Header />
+    <main className="bg-[#222831] h-[100vh]">
+      {/* <Transition /> */}
+      <Cover />
     </main>
   )
 }
