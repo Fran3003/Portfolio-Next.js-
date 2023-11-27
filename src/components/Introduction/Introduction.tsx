@@ -7,15 +7,7 @@ export function Introduction() {
         <div className="bg-[#131424]/60 w-full z-10">
             <div className="w-full h-full bg-gradient-to-r from-[#131424]/10 via-black/30 to-black/10">
                 <div className="container grid items-center h-full px-5 mx-auto md:grid-cols-2 md:text-left">
-                    <motion.div className="hidden w-auto h-auto mx-auto md:block"
-                        variants={fadeIn('right', 0.5)}
-                        initial="hidden"
-                        animate="show"
-                        exit="hidden"
-                    >
-                        <Image src="/avatar.png" priority width="600" height="400" alt="Avatar" />
-                    </motion.div>
-
+                    
                     <motion.div variants={fadeIn("left", 0.5)}
                         initial="hidden"
                         animate="show"
@@ -35,6 +27,15 @@ export function Introduction() {
                                 Contacta conmigo
                             </a>
                         </div>
+                    </motion.div>
+
+                    <motion.div className="hidden w-auto h-auto mx-auto md:block"
+                        variants={fadeIn('right', 0.5)}
+                        initial="hidden"
+                        animate="show"
+                        exit="hidden"
+                    >
+                        <Image src="/avatar.png" priority width="600" height="400" alt="Avatar" />
                     </motion.div>
                 </div>
             </div>
